@@ -2150,6 +2150,7 @@ input[type="radio"]+label:before {
 	border: 0;
 	display: inline-block;
 	position: relative;
+	/* max-height: 200px; */
 }
 
 .image:before {
@@ -2163,7 +2164,7 @@ input[type="radio"]+label:before {
 	display: block;
 	height: 100%;
 	left: 0;
-	opacity: 0.5;
+	opacity: 0;
 	position: absolute;
 	top: 0;
 	width: 100%;
@@ -2181,11 +2182,11 @@ input[type="radio"]+label:before {
 	border-radius: 0.35em;
 	border: solid 3px rgba(255, 255, 255, 0.5);
 	color: #fff;
-	content: 'View';
+	content: 'View Project';
 	display: inline-block;
 	font-size: 0.8em;
 	font-weight: 400;
-	left: 50%;
+	left: 45%;
 	line-height: 2.25em;
 	margin: -1.25em 0 0 -3em;
 	opacity: 0;
@@ -2237,6 +2238,7 @@ input[type="radio"]+label:before {
 	display: block;
 	margin: 0 0 2em 0;
 	width: 100%;
+	/* max-height: 200px; */
 }
 
 .image.fit img {
@@ -2263,9 +2265,9 @@ input[type="radio"]+label:before {
 	/* background-color: white; */
 	/* color: rgba(0, 0, 0, 1); */
 	/* border: solid 3px rgba(255, 255, 255, 0); */
-	/* opacity: 1.0;
-	background: none !important;
-	border-color: #5cc6a7 !important; */
+	/* opacity: 1.0 !important; */
+	/* background: none !important; */
+	/* border-color: #5cc6a7 !important;  */
 }
 
 /* List */
